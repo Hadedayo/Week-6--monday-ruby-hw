@@ -1,0 +1,29 @@
+<form  action="/<%= @my_music[:id]%>" method="post">
+  <div class="">
+    <label>Title:</label>
+    <input type="text" name="title" value="" placeholder="Enter new title for your song">
+  </div>
+
+  <div class="">
+    <label>Body:</label>
+    <textarea name="name" rows="8" cols="80" placeholder="Enter a new description"></textarea>
+  </div>
+
+  <div class="">
+    <label>Embed Id:</label>
+    <input type="text" name="title" value="" placeholder="Enter new Embed Id for your song">
+  </div>
+
+  <div class="">
+    <label>Lyrics:</label>
+    <input type="text" name="title" value="" placeholder="Enter new lyrics for your song">
+  </div>
+
+  <div class="">
+    <% if ( @my_music [:id] !="")   %>
+    <input type="hidden" name="_method" value="PUT">
+    <% end %>
+    <input type="submit" value="Save post">
+  </div>
+
+</form>

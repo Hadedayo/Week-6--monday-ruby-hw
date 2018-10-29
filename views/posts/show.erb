@@ -1,0 +1,17 @@
+<h1>
+  <%= @my_music[:title] %>
+</h1>
+
+<p>
+  <%= @my_music[:body] %>
+</p>
+
+<iframe
+  src="https://www.youtube.com/embed/<%=@my_music[:embed_id] %>" width="700" height="400">
+</iframe>
+
+<p>
+  <%= @my_music[:lyrics] %>
+</p>
+
+<a href="/<%= @my_music[:id]%>/edit">Edit Playlist Info</a>

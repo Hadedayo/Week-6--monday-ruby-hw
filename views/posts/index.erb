@@ -1,0 +1,14 @@
+<h1>Welcome to my Playlist!</h1>
+<%#  To display data from the hash created in post_contoller.rb, use an each loop to display title, artist and music of each song%>
+
+<% @my_music.each do |the_music| %>
+
+  <div class="">
+    <h2>
+      <a href="/<%= the_music[:id]%>"><%= the_music[:title] %></a>
+    </h2>
+    <p>
+      <%= the_music[:body]%>
+    </p>
+  </div>
+<% end %>
