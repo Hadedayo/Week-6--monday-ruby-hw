@@ -10,36 +10,36 @@ class PostController < Sinatra::Base
 
     $music = [{
       id: 0,
-      title: "Song 1",
-      body: "Lorem ipsum dolor",
+      title: "Havana",
+      body: "Camila Cabello ft. Young Thug",
       embed_id: "HCjNJDNzw8Y",
       lyrics: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 1,
-      title: "Song 2",
-      body: "Lorem ipsum dolor",
+      title: "Rise Up",
+      body: "Andra Day",
       embed_id: "kNKu1uNBVkU",
       lyrics: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 2,
-      title: "Song 3",
-      body: "Lorem ipsum dolor",
-      embed_id: "n6MzBDFtepA",
+      title: "Bad",
+      body: "Tiwa Savage",
+      embed_id: "Q9lpzKvTzSY",
       lyrics: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 3,
-      title: "Song 4",
-      body: "Lorem ipsum dolor",
-      embed_id: "IOTN9SSslvs",
+      title: "Romantic",
+      body: "Korede Bello ft. Tiwa Savage",
+      embed_id: "UXyUMMMETsA",
       lyrics: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       id: 4,
-      title: "Song 5",
-      body: "Lorem ipsum dolor",
+      title: "Meant to be",
+      body: "Bebe Rexha ft. Florida Georgia Line",
       embed_id: "4iNC0NXKyNE",
       lyrics: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }

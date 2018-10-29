@@ -1,0 +1,25 @@
+body{
+  background-color: #52AA5E;
+}
+.form{
+  margin-left: 200px;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: lightred;
+    color: black;
+}
+input[type=submit] {
+    width: 6.5%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

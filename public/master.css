@@ -1,0 +1,26 @@
+body{
+  background-color: #70C1B3;
+}
+
+a:link {
+  color: #F5B700;
+}
+.intro_text{
+  margin-left: 600px;
+}
+.main_content{
+margin-left: 650px;
+
+}
+.left{
+  float: left;
+   padding: 10px;
+   width: 50%;
+   margin-left: 400px;
+}
+.right{
+  float: right;
+  padding: 10px;
+  width: 50%;
+  margin-right: 300px;
+}

@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="layout.css">
   </head>
   <body>
     <%= erb(:'partials/navigation', :layout => false) %>
 
     <%= yield %>
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <%= erb(:'partials/footer', :layout => false) %>
 
   </body>
