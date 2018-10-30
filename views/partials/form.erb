@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="form.css">
-<form  class="form" action="/<%= @my_music[:id]%>" method="post">
+<form class="form" action="/<%= @my_music[:id]%>" method="post">
   <h1>New Song</h1>
   <div class="">
     <label for="title"><strong>Title:</strong></label>
@@ -14,8 +14,8 @@
   <br>
 
   <div class="">
-    <label for="embed_id"><strong>Embed:</strong></label>
-    <input type="text" name="title" value="" placeholder="Enter new Embed Id for your song">
+    <label ><strong>Youtube Link:</strong></label>
+    <input type="text" name="ytlink" value="<%= @my_music[:embed_id]%>">
   </div>
   <br>
 

@@ -82,7 +82,7 @@ class PostController < Sinatra::Base
     my_music = $music[id]
     my_music[:title] = params[:title]
     my_music[:body] = params[:body]
-    my_music[:embed_id] = params[:embed_id]
+    my_music[:embed_id] = params[:ytlink]
     my_music[:lyrics] = params[:lyrics]
     redirect '/'
   end
@@ -93,7 +93,7 @@ class PostController < Sinatra::Base
         id:$music.length,  # for the new post is id will be the length of the post, so its id number will now be 3
         title: params[:title],
         body: params[:body],
-        embed_id: params[:embed_id],
+        embed_id: params[:ytlink],
         lyrics: params[:lyrics]
       }
       $music.push new_music
