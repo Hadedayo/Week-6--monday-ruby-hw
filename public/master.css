@@ -6,10 +6,12 @@ a:link {
   color: #F5B700;
 }
 .intro_text{
-  margin-left: 600px;
+  margin-left: 450px;
+  color: white;
+  font-size: 40px;
 }
 .main_content{
-margin-left: 650px;
+  margin-left: 450px;
 
 }
 .left{
