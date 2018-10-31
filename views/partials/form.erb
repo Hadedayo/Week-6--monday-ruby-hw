@@ -2,26 +2,26 @@
 <form class="form" action="/<%= @my_music[:id]%>" method="post">
   <h1>New Song</h1>
   <div class="">
-    <label for="title"><strong>Title:</strong></label>
-    <input id="title" type="text" name="title" value="" placeholder="Enter new title for your song">
+    <div><label for="title"><strong>Title:</strong></label></div>
+    <div><input id="title" type="text" name="title" value="" placeholder="Enter new title for your song"></div>
   </div>
   <br>
 
   <div class="">
-    <label for="body"><strong>Body:</strong></label>
-    <textarea name="name" rows="8" cols="80" placeholder="Enter a new description"></textarea>
+    <div><label for="body"><strong>Body:</strong></label></div>
+    <div><textarea name="name" rows="8" cols="80" placeholder="Enter a new description"></textarea></div>
   </div>
   <br>
 
   <div class="">
-    <label ><strong>Youtube Link:</strong></label>
-    <input type="text" name="ytlink" value="<%= @my_music[:embed_id]%>">
+    <div><label ><strong>Youtube Link:</strong></label></div>
+    <div><input type="text" name="ytlink" value="<%= @my_music[:embed_id]%>"></div>
   </div>
   <br>
 
   <div class="">
-    <label><strong>Lyrics:</strong></label>
-    <input type="text" name="title" value="" placeholder="Enter new lyrics for your song">
+    <div><label><strong>Lyrics:</strong></label></div>
+    <div><input type="text" name="title" value="" placeholder="Enter new lyrics for your song"></div>
   </div>
   <br>
 
